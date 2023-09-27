@@ -51,7 +51,7 @@ def update_clock():
         second_hand.setheading(second_angle)
 
         # Wait for a bit before the next update
-        time.sleep(1)
+        time.sleep(30)
         second_hand.setheading(90)  # Reset second hand to avoid drawing a line
 
 
